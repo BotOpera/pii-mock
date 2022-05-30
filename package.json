@@ -1,8 +1,8 @@
 {
-  "name": "node_module_development_template",
+  "name": "mocker",
   "version": "1.0.0",
-  "description": "A template for developing node modules.",
-  "main": "index.js",
+  "description": "Mock and Mangle Personal information",
+  "main": "./build/index.js",
   "scripts": {
     "test": "mocha",
     "start": "tsc && node ./build/index.js",
@@ -17,13 +17,15 @@
   "author": "Matt Monroe",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.7.2",
+    "@types/node": "^17.0.36",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "chai": "^4.3.6",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "mocha": "^10.0.0"
+    "mocha": "^10.0.0",
+    "release-please": "^13.17.1",
+    "typescript": "^4.7.2"
   }
 }

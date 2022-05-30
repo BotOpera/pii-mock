@@ -1,3 +1,3 @@
 {
-  "conventionalCommits.scopes": ["documentation"]
+  "conventionalCommits.scopes": ["documentation", "mockdata"]
 }
