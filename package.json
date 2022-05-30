@@ -1,5 +1,5 @@
 {
-  "name": "mocker",
+  "name": "@botopera/mocker",
   "version": "1.0.0",
   "description": "Mock and Mangle Personal information",
   "main": "./build/index.js",
@@ -15,6 +15,13 @@
     "npm"
   ],
   "author": "Matt Monroe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BotOpera/pii-mock.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/botopera"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.36",
