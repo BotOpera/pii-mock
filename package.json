@@ -1,0 +1,29 @@
+{
+  "name": "node_module_development_template",
+  "version": "1.0.0",
+  "description": "A template for developing node modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "tsc && node ./build/index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "modules",
+    "npm"
+  ],
+  "author": "Matt Monroe",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "mocha": "^10.0.0"
+  }
+}
